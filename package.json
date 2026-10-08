@@ -1,0 +1,26 @@
+{
+  "name": "ai-experiment-feature",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Prototype: Edmicro AI interactive experiment generator (local web app)",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "setup": "playwright install chromium",
+    "smoke": "node scripts/smoke-test.js",
+    "test": "node --test test/*.test.js",
+    "test:unit": "node --test $(ls test/*.test.js | grep -v -e e2e -e eval-smoke -e checker)",
+    "test:e2e": "node --test test/e2e-flow.test.js",
+    "eval": "node eval/run-eval.js --variants vi,en",
+    "eval:mock": "LLM_MOCK=1 node eval/run-eval.js --variants vi,en --limit 3"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1",
+    "openai": "^7.30.1",
+    "playwright": "^1.64.0"
+  }
+}

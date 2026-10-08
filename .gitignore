@@ -1,0 +1,17 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# dependencies
+node_modules/
+
+# generated output
+runs/
+eval/results/
+test-results/
+playwright-report/
+
+# OS / editor
+.DS_Store
+*.log

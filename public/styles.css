@@ -1,0 +1,48 @@
+/* Minimal, functional styling. No external fonts or libraries. */
+:root { --accent: #1a5fb4; --orange: #fb8c00; --red: #c62828; --ok: #2e7d32; --border: #c9d1d9; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, "Segoe UI", Arial, sans-serif; font-size: 16px; color: #1b2733; background: #f6f8fa; }
+#app { max-width: 1280px; margin: 0 auto; padding: 16px 24px 48px; }
+h1 { font-size: 24px; margin: 8px 0 16px; }
+[hidden] { display: none !important; }
+
+.field { margin: 0 0 14px; max-width: 760px; }
+label { display: block; font-weight: 600; margin-bottom: 4px; }
+select, textarea { width: 100%; padding: 8px; font: inherit; border: 1px solid var(--border); border-radius: 6px; background: #fff; }
+textarea { resize: vertical; }
+textarea[readonly] { background: #eef1f4; }
+button { font: inherit; padding: 8px 16px; border: 1px solid var(--accent); background: var(--accent); color: #fff; border-radius: 6px; cursor: pointer; }
+button:disabled { background: #aab4bf; border-color: #aab4bf; cursor: not-allowed; }
+button.link { background: none; border: none; color: var(--accent); padding: 2px 0; margin-right: 16px; text-decoration: underline; }
+.links { margin-top: 4px; }
+.note { font-size: 14px; color: #57606a; }
+
+.msg { max-width: 760px; margin: 0 0 14px; padding: 10px 12px; border-radius: 6px; border: 1px solid; }
+.msg.warn { background: #fff3e0; border-color: var(--orange); color: #8a4b00; }
+.msg.error { background: #fdecea; border-color: var(--red); color: #8b1a1a; }
+.msg button { margin-left: 12px; padding: 4px 12px; }
+
+.topbar { display: flex; align-items: center; gap: 16px; margin-bottom: 12px; }
+.split { display: grid; grid-template-columns: minmax(280px, 1fr) minmax(0, 2fr); gap: 20px; align-items: start; }
+.left button { margin-top: 10px; }
+.toolbar { display: flex; gap: 10px; margin-bottom: 10px; }
+/* The experiment is designed for 1366x768..1920x1080, so the frame is laid out at 1920x1080 and scaled down to fit (still 16:9). */
+.frame-box { position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border: 1px solid var(--border); border-radius: 6px; background: #fff; }
+.frame-box iframe { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; border: 0; transform-origin: 0 0; }
+
+#dev-panel { margin-top: 24px; border: 1px solid var(--border); border-radius: 6px; background: #fff; padding: 8px 12px; }
+#dev-panel summary { cursor: pointer; font-weight: 600; }
+.attempt { border-top: 1px solid var(--border); padding: 10px 0; font-size: 14px; }
+.attempt:first-child { border-top: none; }
+.attempt .ok { color: var(--ok); font-weight: 600; }
+.attempt .bad { color: var(--red); font-weight: 600; }
+.attempt ul { margin: 6px 0; padding-left: 18px; }
+.attempt pre { max-height: 320px; overflow: auto; background: #f0f2f4; padding: 8px; white-space: pre-wrap; word-break: break-word; font-size: 12px; }
+.attempt button { padding: 3px 10px; font-size: 13px; margin-right: 8px; }
+.attempt code { background: #eef1f4; padding: 1px 4px; border-radius: 4px; }
+
+/* Brain screen: full-page layer that blocks every interaction */
+#brain-overlay { position: fixed; inset: 0; z-index: 1000; background: rgba(246, 248, 250, 0.78); backdrop-filter: blur(4px); display: flex; align-items: center; justify-content: center; }
+.brain-box { text-align: center; font-size: 20px; font-weight: 600; color: var(--accent); }
+.spinner { width: 56px; height: 56px; margin: 0 auto 12px; border: 6px solid #cfdcec; border-top-color: var(--accent); border-radius: 50%; animation: spin 0.9s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }

@@ -1,0 +1,89 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "SDT_SINHHOC_KNTT_C12",
+      "name": "Sinh học 12",
+      "isLeaf": false,
+      "childData": [
+        {
+          "id": "SDT_SINHHOC_KNTT_C12_1",
+          "name": "Di truyền học",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_SINHHOC_KNTT_C12_1_1",
+              "name": "Di truyền phân tử",
+              "isLeaf": false,
+              "childData": [
+                {
+                  "id": "SDT_SINHHOC_KNTT_C12_1_1_1",
+                  "name": "Gene và cơ chế truyền thông tin di truyền",
+                  "isLeaf": true,
+                  "childData": []
+                },
+                {
+                  "id": "SDT_SINHHOC_KNTT_C12_1_1_2",
+                  "name": "Điều hòa biểu hiện gene",
+                  "isLeaf": true,
+                  "childData": []
+                },
+                {
+                  "id": "SDT_SINHHOC_KNTT_C12_1_1_3",
+                  "name": "Đột biến gene",
+                  "isLeaf": true,
+                  "childData": []
+                }
+              ]
+            },
+            {
+              "id": "SDT_SINHHOC_KNTT_C12_1_2",
+              "name": "Di truyền nhiễm sắc thể",
+              "isLeaf": false,
+              "childData": [
+                {
+                  "id": "SDT_SINHHOC_KNTT_C12_1_2_1",
+                  "name": "Nhiễm sắc thể và cơ chế di truyền nhiễm sắc thể",
+                  "isLeaf": true,
+                  "childData": []
+                },
+                {
+                  "id": "SDT_SINHHOC_KNTT_C12_1_2_2",
+                  "name": "Di truyền liên kết",
+                  "isLeaf": true,
+                  "childData": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SDT_SINHHOC_KNTT_C12_2",
+          "name": "Tiến hóa",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_SINHHOC_KNTT_C12_2_1",
+              "name": "Bằng chứng và cơ chế tiến hóa",
+              "isLeaf": false,
+              "childData": [
+                {
+                  "id": "SDT_SINHHOC_KNTT_C12_2_1_1",
+                  "name": "Các bằng chứng tiến hóa",
+                  "isLeaf": true,
+                  "childData": []
+                },
+                {
+                  "id": "SDT_SINHHOC_KNTT_C12_2_1_2",
+                  "name": "Học thuyết tiến hóa tổng hợp hiện đại",
+                  "isLeaf": true,
+                  "childData": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

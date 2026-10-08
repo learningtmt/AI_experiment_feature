@@ -1,0 +1,138 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "SDT_HOAHOC_KNTT_C12",
+      "name": "Hóa học 12",
+      "isLeaf": false,
+      "childData": [
+        {
+          "id": "SDT_HOAHOC_KNTT_C12_1",
+          "name": "Ester - Lipid",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_HOAHOC_KNTT_C12_1_1",
+              "name": "Ester - Lipid",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_HOAHOC_KNTT_C12_1_2",
+              "name": "Xà phòng và chất giặt rửa",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_HOAHOC_KNTT_C12_2",
+          "name": "Carbohydrate",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_HOAHOC_KNTT_C12_2_1",
+              "name": "Glucose và fructose",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_HOAHOC_KNTT_C12_2_2",
+              "name": "Saccharose và maltose",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_HOAHOC_KNTT_C12_2_3",
+              "name": "Tinh bột và cellulose",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_HOAHOC_KNTT_C12_3",
+          "name": "Hợp chất chứa nitrogen",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_HOAHOC_KNTT_C12_3_1",
+              "name": "Amine",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_HOAHOC_KNTT_C12_3_2",
+              "name": "Amino acid và peptide",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_HOAHOC_KNTT_C12_3_3",
+              "name": "Protein và enzyme",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_HOAHOC_KNTT_C12_4",
+          "name": "Polymer",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_HOAHOC_KNTT_C12_4_1",
+              "name": "Đại cương về polymer",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_HOAHOC_KNTT_C12_4_2",
+              "name": "Vật liệu polymer",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_HOAHOC_KNTT_C12_5",
+          "name": "Pin điện và điện phân",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_HOAHOC_KNTT_C12_5_1",
+              "name": "Thế điện cực và nguồn điện hóa học",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_HOAHOC_KNTT_C12_5_2",
+              "name": "Điện phân",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_HOAHOC_KNTT_C12_6",
+          "name": "Đại cương về kim loại",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_HOAHOC_KNTT_C12_6_1",
+              "name": "Cấu tạo và tính chất của kim loại",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_HOAHOC_KNTT_C12_6_2",
+              "name": "Sự ăn mòn kim loại",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

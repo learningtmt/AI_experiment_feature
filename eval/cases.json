@@ -1,0 +1,205 @@
+[
+  {
+    "id": "T2-tocdo-tao-moi",
+    "test": "T2",
+    "ac": ["D1", "D2", "D3", "D5", "D7"],
+    "flow": "describe+experiment",
+    "subject": "Hóa học",
+    "class": "Lớp 10",
+    "explain": "Tốc độ phản ứng hóa học > Các yếu tố ảnh hưởng đến tốc độ phản ứng",
+    "teacherDescription": "",
+    "note": "",
+    "expect": [
+      "Đúng MỘT thí nghiệm; có dòng Tên thí nghiệm và đủ 5 mục đúng tên, đúng thứ tự",
+      "Văn bản thuần: không có $, \\, **, #; chỉ số dưới viết bằng Unicode (H₂O...)",
+      "Khoảng 150 đến 250 từ (ghi lại số từ thực tế)",
+      "Mọi giá trị cụ thể (khối lượng, nồng độ, thể tích, nhiệt độ...), không có cụm 'một ít', 'vừa đủ'",
+      "Không có số trang, số hình, số bài tập của SGK; không có kết luận hay bài tập",
+      "Mục Đại lượng thay đổi được có ít nhất 1 đại lượng kèm khoảng giá trị, đơn vị, bước và quy luật kết quả",
+      "Chiều đúng: tăng nồng độ, nhiệt độ, diện tích bề mặt hoặc có xúc tác thì phản ứng nhanh hơn",
+      "Thí nghiệm HTML sinh ra bám đúng mô tả này và qua các kiểm tra tự động"
+    ]
+  },
+  {
+    "id": "T3-zn-hcl-hoan-thien",
+    "test": "T3",
+    "ac": ["D8", "D3", "D1"],
+    "flow": "describe+experiment",
+    "subject": "Hóa học",
+    "class": "Lớp 10",
+    "explain": "Tốc độ phản ứng hóa học > Các yếu tố ảnh hưởng đến tốc độ phản ứng",
+    "teacherDescription": "Cho 5 g kẽm viên vào 50 mL dung dịch HCl 2M ở 25°C và quan sát bọt khí.",
+    "note": "",
+    "expect": [
+      "Giữ nguyên chi tiết thầy cô đã viết: 5 g, kẽm viên, 50 mL, HCl 2M, 25°C (không đổi số, không đổi chất)",
+      "Không đổi sang thí nghiệm khác (không thay bằng Mg, CaCO₃...)",
+      "Bổ sung đủ các mục còn thiếu: dụng cụ, các bước, hiện tượng và kết quả, đại lượng thay đổi được",
+      "Phản ứng đúng: Zn + 2HCl → ZnCl₂ + H₂↑; hiện tượng: bọt khí không màu, kẽm tan dần",
+      "Văn bản thuần, không LaTeX hay markdown",
+      "Giá trị mặc định của thí nghiệm HTML là đúng các giá trị trên"
+    ]
+  },
+  {
+    "id": "T4a-tu-choi-mo-ta",
+    "test": "T4",
+    "ac": ["D6"],
+    "flow": "describe-only",
+    "subject": "Vật lí",
+    "class": "Lớp 10",
+    "explain": "Mở đầu > Vai trò của vật lí trong đời sống",
+    "teacherDescription": "",
+    "note": "",
+    "expect": [
+      "Đầu ra là ĐÚNG MỘT dòng, bắt đầu bằng KHONG_PHU_HOP:",
+      "Có lý do ngắn bằng tiếng Việt và gợi ý chọn bài khác hoặc tự nhập mô tả",
+      "Không bịa ra thí nghiệm cho có"
+    ]
+  },
+  {
+    "id": "T4b-tu-choi-thi-nghiem",
+    "test": "T4",
+    "ac": ["AC9"],
+    "flow": "experiment-only",
+    "subject": "Vật lí",
+    "class": "Lớp 10",
+    "explain": "Mở đầu > Vai trò của vật lí trong đời sống",
+    "teacherDescription": "Cả lớp thảo luận nhóm 5 phút về vai trò của vật lí trong đời sống, sau đó mỗi nhóm cử một đại diện trình bày.",
+    "note": "",
+    "expect": [
+      "Đầu ra là ĐÚNG MỘT dòng, bắt đầu bằng KHONG_PHU_HOP:, không có mã HTML",
+      "Lý do nêu rõ đây không phải thí nghiệm mô phỏng được và cần bổ sung gì",
+      "Giao diện hiện thông báo màu cam, không có khung xem trước"
+    ]
+  },
+  {
+    "id": "T5-nem-ngang",
+    "test": "T5",
+    "ac": ["AC1", "AC4", "AC5", "AC6", "AC8"],
+    "flow": "experiment-only",
+    "subject": "Vật lí",
+    "class": "Lớp 10",
+    "explain": "Chuyển động > Chuyển động ném",
+    "teacherDescription": "Tên thí nghiệm: Chuyển động ném ngang\nMục tiêu kiến thức: Quan sát thời gian rơi và tầm xa của vật bị ném ngang khi thay đổi vận tốc ném.\nDụng cụ, hoá chất, vật liệu: Vật nhỏ được ném từ độ cao h = 20 m so với mặt đất. Gia tốc rơi tự do g = 9,8 m/s². Bỏ qua sức cản không khí.\nCác bước thực hiện:\n1. Chọn vận tốc ném v₀.\n2. Bấm \"Ném\".\n3. Quan sát quỹ đạo của vật và đọc thời gian rơi t, tầm xa L.\nHiện tượng và kết quả: Vật chuyển động theo quỹ đạo parabol. Thời gian rơi t = √(2h/g) không phụ thuộc v₀. Tầm xa L = v₀·t.\nĐại lượng thay đổi được: Vận tốc ném v₀ từ 5 m/s đến 30 m/s, bước 5 m/s. Với mọi giá trị v₀: t = 2,02 s; L = v₀ × 2,02 m (ví dụ v₀ = 10 m/s thì L ≈ 20,2 m).",
+    "note": "",
+    "expect": [
+      "Có điều khiển chọn v₀ trong khoảng 5 đến 30 m/s, bước 5, hiển thị kèm đơn vị",
+      "t luôn bằng 2,02 s ở mọi v₀ (không đổi khi đổi v₀)",
+      "L: v₀ = 5 → 10,1 m; v₀ = 10 → 20,2 m; v₀ = 20 → 40,4 m; v₀ = 30 → 60,6 m (sai số làm tròn ±0,1 m)",
+      "Số thập phân hiển thị bằng dấu phẩy (2,02 chứ không phải 2.02)",
+      "Quỹ đạo parabol vẽ đúng, vật rơi xuống đất, không tràn khỏi khung, tầm xa lớn nhất vẫn nằm trong khung",
+      "Chỉ ném được sau khi chọn v₀; bấm Ném thì vật chuyển động thật; nút Làm lại đưa về trạng thái đầu",
+      "Không có kết luận, câu hỏi hay bài tập trên màn hình"
+    ]
+  },
+  {
+    "id": "T6-lo-xo-g10",
+    "test": "T6",
+    "ac": ["AC3", "AC1", "AC5"],
+    "flow": "experiment-only",
+    "subject": "Vật lí",
+    "class": "Lớp 10",
+    "explain": "Lực > Lực đàn hồi, định luật Hooke",
+    "teacherDescription": "Tên thí nghiệm: Độ dãn của lò xo khi treo vật\nMục tiêu kiến thức: Quan sát độ dãn của lò xo tỉ lệ thuận với lực kéo.\nDụng cụ, hoá chất, vật liệu: Một lò xo có độ cứng k = 40 N/m treo thẳng đứng vào giá đỡ; các quả cân khối lượng m. Lấy g = 10 m/s².\nCác bước thực hiện:\n1. Chọn khối lượng m của quả cân.\n2. Treo quả cân vào lò xo.\n3. Đọc lực kéo F và độ dãn Δl trên thước.\nHiện tượng và kết quả: Lò xo dãn ra khi treo vật. F = m·g; Δl = F/k.\nĐại lượng thay đổi được: Khối lượng m từ 0,1 kg đến 0,5 kg, bước 0,1 kg. Kết quả: m = 0,1 kg: F = 1 N, Δl = 2,5 cm; m = 0,2 kg: F = 2 N, Δl = 5,0 cm; m = 0,3 kg: F = 3 N, Δl = 7,5 cm; m = 0,4 kg: F = 4 N, Δl = 10,0 cm; m = 0,5 kg: F = 5 N, Δl = 12,5 cm.",
+    "note": "",
+    "expect": [
+      "Dùng ĐÚNG g = 10 m/s² và k = 40 N/m như mô tả (nếu dùng g = 9,8 thì F và Δl lệch: 0,2 kg ra 4,9 cm là SAI)",
+      "Bảng kết quả khớp mô tả ở cả 5 mức: F = 1, 2, 3, 4, 5 N; Δl = 2,5; 5,0; 7,5; 10,0; 12,5 cm",
+      "Không thêm vật thể hay điều khiển không có trong mô tả (ví dụ lò xo thứ hai, thanh trượt nhiệt độ)",
+      "Đơn vị nhất quán (N, cm) và số thập phân dùng dấu phẩy",
+      "Lò xo dãn đúng chiều (xuống dưới), chiều dài dãn tỉ lệ với m"
+    ]
+  },
+  {
+    "id": "T7-ethylene-bromine-co-dinh",
+    "test": "T7",
+    "ac": ["AC5", "AC6", "AC1", "AC4"],
+    "flow": "experiment-only",
+    "subject": "Hóa học",
+    "class": "Lớp 11",
+    "explain": "Hydrocarbon không no > Alkene",
+    "teacherDescription": "Tên thí nghiệm: Ethylene tác dụng với nước bromine\nMục tiêu kiến thức: Quan sát hiện tượng ethylene làm mất màu nước bromine.\nDụng cụ, hoá chất, vật liệu: Ống nghiệm chứa 5 mL nước bromine màu nâu đỏ; bình khí ethylene (C₂H₄); ống dẫn khí.\nCác bước thực hiện:\n1. Nối bình khí ethylene với ống nghiệm chứa nước bromine.\n2. Bấm \"Dẫn khí\".\n3. Quan sát màu của dung dịch.\nHiện tượng và kết quả: Dung dịch nước bromine nhạt dần rồi mất màu hoàn toàn. Phản ứng: C₂H₄ + Br₂ → C₂H₄Br₂.\nĐại lượng thay đổi được: Không có (thí nghiệm có một kịch bản cố định).",
+    "note": "",
+    "expect": [
+      "KHÔNG có thanh trượt, danh sách chọn hay điều khiển trang trí nào ngoài thao tác của các bước (nối ống, dẫn khí) và Làm lại",
+      "Dung dịch chuyển dần từ nâu đỏ sang không màu, đủ lớn và đủ lâu để nhìn rõ",
+      "Có bọt khí đi lên trong dung dịch khi dẫn khí",
+      "Công thức C₂H₄, Br₂ hiển thị đúng chỉ số dưới",
+      "Dẫn khí chỉ bấm được sau khi nối bình khí với ống nghiệm; Làm lại đưa nước bromine về màu nâu đỏ",
+      "Không có kết luận, phương trình giải thích dài hay câu hỏi trên màn hình"
+    ]
+  },
+  {
+    "id": "T8-chon-khi-bromine",
+    "test": "T8",
+    "ac": ["AC5", "AC2", "AC1", "AC7"],
+    "flow": "experiment-only",
+    "subject": "Hóa học",
+    "class": "Lớp 11",
+    "explain": "Hydrocarbon không no > Alkene",
+    "teacherDescription": "Tên thí nghiệm: Nhận biết ethane, ethylene và acetylene bằng nước bromine\nMục tiêu kiến thức: So sánh khả năng làm mất màu nước bromine của ethane, ethylene và acetylene.\nDụng cụ, hoá chất, vật liệu: Ống nghiệm chứa 5 mL nước bromine màu nâu đỏ; ba bình khí: ethane (C₂H₆), ethylene (C₂H₄), acetylene (C₂H₂); ống dẫn khí.\nCác bước thực hiện:\n1. Chọn một bình khí.\n2. Bấm \"Dẫn khí\" vào ống nghiệm.\n3. Quan sát màu của dung dịch.\nHiện tượng và kết quả: Ethane: không có hiện tượng, dung dịch vẫn màu nâu đỏ. Ethylene và acetylene: dung dịch mất màu nâu đỏ.\nĐại lượng thay đổi được: Loại khí: ethane, ethylene hoặc acetylene. Mỗi lần chọn khí khác, ống nghiệm trở về chứa nước bromine mới.",
+    "note": "",
+    "expect": [
+      "Có đủ 3 lựa chọn khí đúng tên và đúng công thức (C₂H₆, C₂H₄, C₂H₂)",
+      "Ethane: hiện kết quả 'không có hiện tượng', dung dịch vẫn nâu đỏ, KHÔNG báo lỗi, KHÔNG bị trống",
+      "Ethylene và acetylene: dung dịch mất màu",
+      "Đổi khí sau khi đã chạy: ống nghiệm trở về nước bromine mới, không còn tàn dư (màu, bọt, chữ) của lần trước",
+      "Bấm Làm lại 5 lần liên tiếp rồi chạy lại: không lỗi, không hoạt ảnh chạy chồng lên nhau",
+      "Đổi khí giữa lúc đang dẫn khí: không lỗi, kết quả không bị lẫn giữa hai khí"
+    ]
+  },
+  {
+    "id": "T9-giay-quy-mo-ta-ngan",
+    "test": "T9",
+    "ac": ["AC3", "AC5", "AC1", "AC2"],
+    "flow": "experiment-only",
+    "subject": "Hóa học",
+    "class": "Lớp 11",
+    "explain": "Cân bằng trong dung dịch nước > pH của dung dịch. Chất chỉ thị axit - bazơ",
+    "teacherDescription": "Nhúng giấy quỳ tím vào dung dịch HCl 0,1 M và dung dịch NaOH 0,1 M.",
+    "note": "",
+    "expect": [
+      "Giữ đúng chi tiết thầy cô viết: giấy quỳ tím, HCl 0,1 M, NaOH 0,1 M (không đổi nồng độ)",
+      "HCl 0,1 M: giấy quỳ chuyển đỏ; NaOH 0,1 M: giấy quỳ chuyển xanh",
+      "Nếu hiển thị pH: HCl 0,1 M ≈ 1; NaOH 0,1 M ≈ 13 (ở 25°C)",
+      "Có lựa chọn dung dịch (vì thực tế có hai trường hợp) nhưng KHÔNG thêm thanh trượt hay điều khiển không liên quan",
+      "Chọn dung dịch khác: giấy quỳ mới, không tàn dư màu của lần trước",
+      "Số thập phân dùng dấu phẩy (0,1 M); công thức HCl, NaOH đúng"
+    ]
+  },
+  {
+    "id": "T10a-quang-hop",
+    "test": "T10",
+    "ac": ["AC10", "D1", "D4", "AC1"],
+    "flow": "describe+experiment",
+    "subject": "Sinh học",
+    "class": "Lớp 11",
+    "explain": "Trao đổi chất và chuyển hoá năng lượng ở thực vật > Quang hợp ở thực vật",
+    "teacherDescription": "",
+    "note": "",
+    "expect": [
+      "Mô tả là MỘT thí nghiệm, đúng 5 mục, mô phỏng được trên máy tính",
+      "Chiều đúng: tăng cường độ ánh sáng (hoặc giảm khoảng cách đèn) thì lượng O₂ (số bọt khí) tăng, có thể bão hoà ở mức cao; không âm",
+      "Nếu có đại lượng khác (nhiệt độ, CO₂): quy luật có điểm tối ưu hoặc bão hoà hợp lý, không tăng vô hạn",
+      "Thuật ngữ đúng chương trình lớp 11; thí nghiệm HTML bám đúng mô tả",
+      "Chất lượng kỹ thuật tương đương các test môn Hóa và Vật lí (qua kiểm tra tự động)"
+    ]
+  },
+  {
+    "id": "T10b-mua-ngay-dem",
+    "test": "T10",
+    "ac": ["AC10", "D1", "D4", "AC1"],
+    "flow": "describe+experiment",
+    "subject": "Địa lí",
+    "class": "Lớp 10",
+    "explain": "Trái Đất > Hệ quả địa lí các chuyển động của Trái Đất",
+    "teacherDescription": "",
+    "note": "",
+    "expect": [
+      "Hoặc là một mô phỏng đúng, hoặc KHONG_PHU_HOP kèm lý do hợp lý (cả hai đều chấp nhận; ghi lại tỉ lệ từ chối)",
+      "Nếu có mô phỏng ngày đêm hoặc mùa: ngày 21/3 và 23/9 ngày bằng đêm ở mọi nơi",
+      "Ngày 22/6: Bắc bán cầu ngày dài hơn đêm; từ vĩ độ 66°33′B trở lên ngày dài 24 giờ",
+      "Ngày 22/12: ngược lại với 22/6; vùng xích đạo luôn khoảng 12 giờ ngày",
+      "Thuật ngữ đúng chương trình lớp 10 (Bắc bán cầu, Nam bán cầu, vĩ độ, xích đạo...)"
+    ]
+  }
+]

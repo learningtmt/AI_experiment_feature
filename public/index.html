@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tạo thí nghiệm tương tác</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+
+  <!-- Màn 1: nhập thông tin -->
+  <section id="screen-input">
+    <h1>Tạo thí nghiệm tương tác</h1>
+
+    <div class="field">
+      <label for="subject">Môn học</label>
+      <select id="subject"><option value="">Chọn môn học</option></select>
+    </div>
+    <div class="field">
+      <label for="class">Lớp</label>
+      <select id="class" disabled><option value="">Chọn lớp</option></select>
+      <span id="class-note" class="note" hidden></span>
+    </div>
+    <div class="field">
+      <label for="lesson">Bài học</label>
+      <select id="lesson" disabled><option value="">Chọn bài học</option></select>
+    </div>
+
+    <div class="field">
+      <label for="teacher-description">Mô tả của thầy cô</label>
+      <textarea id="teacher-description" rows="7" placeholder="Nhập mô tả thí nghiệm của thầy cô (có thể để trống rồi nhờ AI viết)."></textarea>
+    </div>
+
+    <div class="field">
+      <button id="ai-button" type="button" disabled>AI tạo mô tả</button>
+    </div>
+    <div id="ai-message" class="msg" role="status" hidden>
+      <span id="ai-message-text"></span>
+      <button id="ai-retry" type="button" hidden>Thử lại</button>
+    </div>
+
+    <div id="ai-block" class="field" hidden>
+      <label for="ai-description">Mô tả AI</label>
+      <textarea id="ai-description" rows="12"></textarea>
+      <div class="links">
+        <button id="ai-undo" type="button" class="link" hidden>Hoàn tác</button>
+        <button id="ai-clear" type="button" class="link">Xóa mô tả AI</button>
+      </div>
+      <div id="ai-warnings" class="note" hidden></div>
+      <div id="ai-stale-warning" class="msg warn" role="status" hidden>Mô tả của thầy cô đã thay đổi sau khi AI tạo. Bấm AI để tạo lại, hoặc xóa mô tả AI để dùng mô tả của thầy cô.</div>
+    </div>
+
+    <div class="field">
+      <button id="extra-toggle" type="button" class="link">+ Thêm yêu cầu</button>
+      <textarea id="extra-note" rows="3" placeholder="Yêu cầu thêm (không bắt buộc)" hidden></textarea>
+    </div>
+
+    <p id="description-hint" class="note" hidden>Nhập mô tả của thầy cô hoặc bấm “AI tạo mô tả”. Cần ít nhất một trong hai.</p>
+
+    <div id="continue-message" class="msg error" role="status" hidden>
+      <span id="continue-message-text"></span>
+      <button id="continue-retry" type="button">Thử lại</button>
+    </div>
+    <div class="field">
+      <button id="continue" type="button" disabled>Tiếp tục</button>
+    </div>
+  </section>
+
+  <!-- Màn 2: kết quả -->
+  <section id="screen-result" hidden>
+    <div class="topbar">
+      <button id="back-to-edit" type="button">Thay đổi mô tả</button>
+      <strong id="result-title"></strong>
+    </div>
+    <div class="split">
+      <div class="left">
+        <label for="effective-description">Mô tả thí nghiệm đã dùng</label>
+        <textarea id="effective-description" rows="16" readonly></textarea>
+        <button id="regenerate" type="button">Tạo lại thí nghiệm</button>
+      </div>
+      <div class="right">
+        <div class="toolbar">
+          <button id="download" type="button" disabled>Tải file</button>
+          <button id="fullscreen" type="button" disabled>Toàn màn hình</button>
+        </div>
+        <div id="preview-wrap"></div>
+        <div id="experiment-message" class="msg" role="status" hidden>
+          <span id="experiment-message-text"></span>
+          <button id="experiment-retry" type="button" hidden>Thử lại</button>
+        </div>
+      </div>
+    </div>
+
+    <details id="dev-panel" open>
+      <summary>Công cụ kiểm thử</summary>
+      <div id="dev-body"></div>
+    </details>
+  </section>
+</div>
+
+<!-- Màn brain: chặn mọi thao tác trong lúc AI chạy -->
+<div id="brain-overlay" role="alertdialog" aria-modal="true" aria-label="Đang xử lý" hidden>
+  <div class="brain-box">
+    <div class="spinner" aria-hidden="true"></div>
+    <div>Đang xử lý…</div>
+  </div>
+</div>
+
+<script src="/shared/resolve.js"></script>
+<script src="/shared/vn-text.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

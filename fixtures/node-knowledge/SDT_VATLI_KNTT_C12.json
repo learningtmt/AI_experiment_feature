@@ -1,0 +1,121 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "SDT_VATLI_KNTT_C12",
+      "name": "Vật lí 12",
+      "isLeaf": false,
+      "childData": [
+        {
+          "id": "SDT_VATLI_KNTT_C12_1",
+          "name": "Vật lí nhiệt",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_VATLI_KNTT_C12_1_1",
+              "name": "Khí lí tưởng",
+              "isLeaf": false,
+              "childData": [
+                {
+                  "id": "SDT_VATLI_KNTT_C12_1_1_1",
+                  "name": "Mô hình động học phân tử chất khí",
+                  "isLeaf": true,
+                  "childData": []
+                },
+                {
+                  "id": "SDT_VATLI_KNTT_C12_1_1_2",
+                  "name": "Phương trình trạng thái khí lí tưởng",
+                  "isLeaf": true,
+                  "childData": []
+                },
+                {
+                  "id": "SDT_VATLI_KNTT_C12_1_1_3",
+                  "name": "Định luật Boyle. Định luật Charles",
+                  "isLeaf": true,
+                  "childData": []
+                }
+              ]
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C12_1_2",
+              "name": "Nhiệt động lực học",
+              "isLeaf": false,
+              "childData": [
+                {
+                  "id": "SDT_VATLI_KNTT_C12_1_2_1",
+                  "name": "Sự chuyển thể",
+                  "isLeaf": true,
+                  "childData": []
+                },
+                {
+                  "id": "SDT_VATLI_KNTT_C12_1_2_2",
+                  "name": "Nội năng. Định luật I của nhiệt động lực học",
+                  "isLeaf": true,
+                  "childData": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SDT_VATLI_KNTT_C12_2",
+          "name": "Từ trường",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_VATLI_KNTT_C12_2_1",
+              "name": "Từ trường và cảm ứng điện từ",
+              "isLeaf": false,
+              "childData": [
+                {
+                  "id": "SDT_VATLI_KNTT_C12_2_1_1",
+                  "name": "Khái niệm từ trường",
+                  "isLeaf": true,
+                  "childData": []
+                },
+                {
+                  "id": "SDT_VATLI_KNTT_C12_2_1_2",
+                  "name": "Lực từ. Cảm ứng từ",
+                  "isLeaf": true,
+                  "childData": []
+                },
+                {
+                  "id": "SDT_VATLI_KNTT_C12_2_1_3",
+                  "name": "Hiện tượng cảm ứng điện từ",
+                  "isLeaf": true,
+                  "childData": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SDT_VATLI_KNTT_C12_3",
+          "name": "Vật lí hạt nhân và phóng xạ",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_VATLI_KNTT_C12_3_1",
+              "name": "Hạt nhân",
+              "isLeaf": false,
+              "childData": [
+                {
+                  "id": "SDT_VATLI_KNTT_C12_3_1_1",
+                  "name": "Cấu trúc hạt nhân",
+                  "isLeaf": true,
+                  "childData": []
+                },
+                {
+                  "id": "SDT_VATLI_KNTT_C12_3_1_2",
+                  "name": "Năng lượng liên kết",
+                  "isLeaf": true,
+                  "childData": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

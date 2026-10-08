@@ -1,0 +1,87 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "SDT_SINHHOC_KNTT_C11",
+      "name": "Sinh học 11",
+      "isLeaf": false,
+      "childData": [
+        {
+          "id": "SDT_SINHHOC_KNTT_C11_1",
+          "name": "Trao đổi chất và chuyển hoá năng lượng ở thực vật",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_SINHHOC_KNTT_C11_1_1",
+              "name": "Trao đổi nước và khoáng ở thực vật",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_SINHHOC_KNTT_C11_1_2",
+              "name": "Quang hợp ở thực vật",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_SINHHOC_KNTT_C11_1_3",
+              "name": "Hô hấp ở thực vật",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_SINHHOC_KNTT_C11_1_4",
+              "name": "Dinh dưỡng nitrogen ở thực vật",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_SINHHOC_KNTT_C11_2",
+          "name": "Trao đổi chất và chuyển hoá năng lượng ở động vật",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_SINHHOC_KNTT_C11_2_1",
+              "name": "Tiêu hóa ở động vật",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_SINHHOC_KNTT_C11_2_2",
+              "name": "Hô hấp ở động vật",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_SINHHOC_KNTT_C11_2_3",
+              "name": "Tuần hoàn ở động vật",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_SINHHOC_KNTT_C11_3",
+          "name": "Cảm ứng ở sinh vật",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_SINHHOC_KNTT_C11_3_1",
+              "name": "Khái quát về cảm ứng ở sinh vật",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_SINHHOC_KNTT_C11_3_2",
+              "name": "Cảm ứng ở thực vật",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

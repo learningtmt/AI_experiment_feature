@@ -1,0 +1,90 @@
+[
+  {
+    "_id": "SDT_SINHHOC",
+    "name": "Sách điện tử môn Sinh học",
+    "title": "Sinh học",
+    "order": 1,
+    "status": 1,
+    "subjectCodeCore": "SINH"
+  },
+  {
+    "_id": "SDT_VATLI",
+    "name": "Sách điện tử môn Vật lí",
+    "title": "Vật lí",
+    "order": 2,
+    "status": 1,
+    "subjectCodeCore": "LY"
+  },
+  {
+    "_id": "SDT_HOAHOC",
+    "name": "Sách điện tử môn Hóa học",
+    "title": "Hóa học",
+    "order": 3,
+    "status": 1,
+    "subjectCodeCore": "HOA"
+  },
+  {
+    "_id": "SDT_KHTN",
+    "name": "Sách điện tử môn Khoa học tự nhiên",
+    "title": "Khoa học tự nhiên",
+    "order": 4,
+    "status": 1,
+    "subjectCodeCore": "KHTN"
+  },
+  {
+    "_id": "SDT_DIALI",
+    "name": "Sách điện tử môn Địa lí",
+    "title": "Địa lí",
+    "order": 5,
+    "status": 1,
+    "subjectCodeCore": "DIA"
+  },
+  {
+    "_id": "SDT_TOAN",
+    "name": "Sách điện tử môn Toán",
+    "title": "Toán",
+    "order": 6,
+    "status": 1,
+    "subjectCodeCore": "TOAN"
+  },
+  {
+    "_id": "SDT_NGUVAN",
+    "name": "Sách điện tử môn Ngữ văn",
+    "title": "Ngữ văn",
+    "order": 7,
+    "status": 1,
+    "subjectCodeCore": "VAN"
+  },
+  {
+    "_id": "SDT_LICHSU",
+    "name": "Sách điện tử môn Lịch sử",
+    "title": "Lịch sử",
+    "order": 8,
+    "status": 1,
+    "subjectCodeCore": "SU"
+  },
+  {
+    "_id": "SDT_LSDL",
+    "name": "Sách điện tử môn Lịch sử và Địa lí",
+    "title": "Lịch sử và Địa lí",
+    "order": 9,
+    "status": 1,
+    "subjectCodeCore": "LSDL"
+  },
+  {
+    "_id": "SDT_TINHOC",
+    "name": "Sách điện tử môn Tin học",
+    "title": "Tin học",
+    "order": 10,
+    "status": 1,
+    "subjectCodeCore": "TIN"
+  },
+  {
+    "_id": "SDT_CONGNGHE",
+    "name": "Sách điện tử môn Công nghệ",
+    "title": "Công nghệ",
+    "order": 11,
+    "status": 1,
+    "subjectCodeCore": "CN"
+  }
+]

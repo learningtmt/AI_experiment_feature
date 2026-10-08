@@ -1,0 +1,436 @@
+{
+  "SDT_SINHHOC": [
+    {
+      "id": "KNTT",
+      "name": "Kết nối tri thức với cuộc sống",
+      "itemClasses": [
+        {
+          "id": "C10",
+          "name": "Lớp 10"
+        },
+        {
+          "id": "C11",
+          "name": "Lớp 11"
+        },
+        {
+          "id": "C12",
+          "name": "Lớp 12"
+        }
+      ]
+    },
+    {
+      "id": "CTST",
+      "name": "Chân trời sáng tạo",
+      "itemClasses": [
+        {
+          "id": "C10",
+          "name": "Lớp 10"
+        },
+        {
+          "id": "C11",
+          "name": "Lớp 11"
+        },
+        {
+          "id": "C12",
+          "name": "Lớp 12"
+        }
+      ]
+    }
+  ],
+  "SDT_VATLI": [
+    {
+      "id": "KNTT",
+      "name": "Kết nối tri thức với cuộc sống",
+      "itemClasses": [
+        {
+          "id": "C10",
+          "name": "Lớp 10"
+        },
+        {
+          "id": "C11",
+          "name": "Lớp 11"
+        },
+        {
+          "id": "C12",
+          "name": "Lớp 12"
+        }
+      ]
+    },
+    {
+      "id": "CTST",
+      "name": "Chân trời sáng tạo",
+      "itemClasses": [
+        {
+          "id": "C10",
+          "name": "Lớp 10"
+        },
+        {
+          "id": "C11",
+          "name": "Lớp 11"
+        },
+        {
+          "id": "C12",
+          "name": "Lớp 12"
+        }
+      ]
+    }
+  ],
+  "SDT_HOAHOC": [
+    {
+      "id": "KNTT",
+      "name": "Kết nối tri thức với cuộc sống",
+      "itemClasses": [
+        {
+          "id": "C10",
+          "name": "Lớp 10"
+        },
+        {
+          "id": "C11",
+          "name": "Lớp 11"
+        },
+        {
+          "id": "C12",
+          "name": "Lớp 12"
+        }
+      ]
+    },
+    {
+      "id": "CTST",
+      "name": "Chân trời sáng tạo",
+      "itemClasses": [
+        {
+          "id": "C10",
+          "name": "Lớp 10"
+        },
+        {
+          "id": "C11",
+          "name": "Lớp 11"
+        },
+        {
+          "id": "C12",
+          "name": "Lớp 12"
+        }
+      ]
+    }
+  ],
+  "SDT_KHTN": [
+    {
+      "id": "KNTT",
+      "name": "Kết nối tri thức với cuộc sống",
+      "itemClasses": [
+        {
+          "id": "C6",
+          "name": "Lớp 6"
+        },
+        {
+          "id": "C7",
+          "name": "Lớp 7"
+        },
+        {
+          "id": "C8",
+          "name": "Lớp 8"
+        },
+        {
+          "id": "C9",
+          "name": "Lớp 9"
+        }
+      ]
+    },
+    {
+      "id": "CTST",
+      "name": "Chân trời sáng tạo",
+      "itemClasses": [
+        {
+          "id": "C6",
+          "name": "Lớp 6"
+        },
+        {
+          "id": "C7",
+          "name": "Lớp 7"
+        },
+        {
+          "id": "C8",
+          "name": "Lớp 8"
+        },
+        {
+          "id": "C9",
+          "name": "Lớp 9"
+        }
+      ]
+    }
+  ],
+  "SDT_DIALI": [
+    {
+      "id": "KNTT",
+      "name": "Kết nối tri thức với cuộc sống",
+      "itemClasses": [
+        {
+          "id": "C10",
+          "name": "Lớp 10"
+        },
+        {
+          "id": "C11",
+          "name": "Lớp 11"
+        },
+        {
+          "id": "C12",
+          "name": "Lớp 12"
+        }
+      ]
+    },
+    {
+      "id": "CTST",
+      "name": "Chân trời sáng tạo",
+      "itemClasses": [
+        {
+          "id": "C10",
+          "name": "Lớp 10"
+        },
+        {
+          "id": "C11",
+          "name": "Lớp 11"
+        },
+        {
+          "id": "C12",
+          "name": "Lớp 12"
+        }
+      ]
+    }
+  ],
+  "SDT_TOAN": [
+    {
+      "id": "KNTT",
+      "name": "Kết nối tri thức với cuộc sống",
+      "itemClasses": [
+        {
+          "id": "C10",
+          "name": "Lớp 10"
+        },
+        {
+          "id": "C11",
+          "name": "Lớp 11"
+        },
+        {
+          "id": "C12",
+          "name": "Lớp 12"
+        }
+      ]
+    },
+    {
+      "id": "CTST",
+      "name": "Chân trời sáng tạo",
+      "itemClasses": [
+        {
+          "id": "C10",
+          "name": "Lớp 10"
+        },
+        {
+          "id": "C11",
+          "name": "Lớp 11"
+        },
+        {
+          "id": "C12",
+          "name": "Lớp 12"
+        }
+      ]
+    }
+  ],
+  "SDT_NGUVAN": [
+    {
+      "id": "KNTT",
+      "name": "Kết nối tri thức với cuộc sống",
+      "itemClasses": [
+        {
+          "id": "C10",
+          "name": "Lớp 10"
+        },
+        {
+          "id": "C11",
+          "name": "Lớp 11"
+        },
+        {
+          "id": "C12",
+          "name": "Lớp 12"
+        }
+      ]
+    },
+    {
+      "id": "CTST",
+      "name": "Chân trời sáng tạo",
+      "itemClasses": [
+        {
+          "id": "C10",
+          "name": "Lớp 10"
+        },
+        {
+          "id": "C11",
+          "name": "Lớp 11"
+        },
+        {
+          "id": "C12",
+          "name": "Lớp 12"
+        }
+      ]
+    }
+  ],
+  "SDT_LICHSU": [
+    {
+      "id": "KNTT",
+      "name": "Kết nối tri thức với cuộc sống",
+      "itemClasses": [
+        {
+          "id": "C10",
+          "name": "Lớp 10"
+        },
+        {
+          "id": "C11",
+          "name": "Lớp 11"
+        },
+        {
+          "id": "C12",
+          "name": "Lớp 12"
+        }
+      ]
+    },
+    {
+      "id": "CTST",
+      "name": "Chân trời sáng tạo",
+      "itemClasses": [
+        {
+          "id": "C10",
+          "name": "Lớp 10"
+        },
+        {
+          "id": "C11",
+          "name": "Lớp 11"
+        },
+        {
+          "id": "C12",
+          "name": "Lớp 12"
+        }
+      ]
+    }
+  ],
+  "SDT_LSDL": [
+    {
+      "id": "KNTT",
+      "name": "Kết nối tri thức với cuộc sống",
+      "itemClasses": [
+        {
+          "id": "C6",
+          "name": "Lớp 6"
+        },
+        {
+          "id": "C7",
+          "name": "Lớp 7"
+        },
+        {
+          "id": "C8",
+          "name": "Lớp 8"
+        },
+        {
+          "id": "C9",
+          "name": "Lớp 9"
+        }
+      ]
+    },
+    {
+      "id": "CTST",
+      "name": "Chân trời sáng tạo",
+      "itemClasses": [
+        {
+          "id": "C6",
+          "name": "Lớp 6"
+        },
+        {
+          "id": "C7",
+          "name": "Lớp 7"
+        },
+        {
+          "id": "C8",
+          "name": "Lớp 8"
+        },
+        {
+          "id": "C9",
+          "name": "Lớp 9"
+        }
+      ]
+    }
+  ],
+  "SDT_TINHOC": [
+    {
+      "id": "KNTT",
+      "name": "Kết nối tri thức với cuộc sống",
+      "itemClasses": [
+        {
+          "id": "C10",
+          "name": "Lớp 10"
+        },
+        {
+          "id": "C11",
+          "name": "Lớp 11"
+        },
+        {
+          "id": "C12",
+          "name": "Lớp 12"
+        }
+      ]
+    },
+    {
+      "id": "CTST",
+      "name": "Chân trời sáng tạo",
+      "itemClasses": [
+        {
+          "id": "C10",
+          "name": "Lớp 10"
+        },
+        {
+          "id": "C11",
+          "name": "Lớp 11"
+        },
+        {
+          "id": "C12",
+          "name": "Lớp 12"
+        }
+      ]
+    }
+  ],
+  "SDT_CONGNGHE": [
+    {
+      "id": "KNTT",
+      "name": "Kết nối tri thức với cuộc sống",
+      "itemClasses": [
+        {
+          "id": "C10",
+          "name": "Lớp 10"
+        },
+        {
+          "id": "C11",
+          "name": "Lớp 11"
+        },
+        {
+          "id": "C12",
+          "name": "Lớp 12"
+        }
+      ]
+    },
+    {
+      "id": "CTST",
+      "name": "Chân trời sáng tạo",
+      "itemClasses": [
+        {
+          "id": "C10",
+          "name": "Lớp 10"
+        },
+        {
+          "id": "C11",
+          "name": "Lớp 11"
+        },
+        {
+          "id": "C12",
+          "name": "Lớp 12"
+        }
+      ]
+    }
+  ]
+}

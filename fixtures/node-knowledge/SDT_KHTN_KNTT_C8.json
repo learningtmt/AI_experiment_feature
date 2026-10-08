@@ -1,0 +1,146 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "SDT_KHTN_KNTT_C8",
+      "name": "Khoa học tự nhiên 8",
+      "isLeaf": false,
+      "childData": [
+        {
+          "id": "SDT_KHTN_KNTT_C8_1",
+          "name": "Chất và sự biến đổi của chất",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_KHTN_KNTT_C8_1_1",
+              "name": "Phản ứng hóa học",
+              "isLeaf": false,
+              "childData": [
+                {
+                  "id": "SDT_KHTN_KNTT_C8_1_1_1",
+                  "name": "Biến đổi vật lí và biến đổi hóa học",
+                  "isLeaf": true,
+                  "childData": []
+                },
+                {
+                  "id": "SDT_KHTN_KNTT_C8_1_1_2",
+                  "name": "Phản ứng hóa học",
+                  "isLeaf": true,
+                  "childData": []
+                },
+                {
+                  "id": "SDT_KHTN_KNTT_C8_1_1_3",
+                  "name": "Mol và tỉ khối của chất khí",
+                  "isLeaf": true,
+                  "childData": []
+                }
+              ]
+            },
+            {
+              "id": "SDT_KHTN_KNTT_C8_1_2",
+              "name": "Acid - base - pH - Oxide - Muối",
+              "isLeaf": false,
+              "childData": [
+                {
+                  "id": "SDT_KHTN_KNTT_C8_1_2_1",
+                  "name": "Acid",
+                  "isLeaf": true,
+                  "childData": []
+                },
+                {
+                  "id": "SDT_KHTN_KNTT_C8_1_2_2",
+                  "name": "Base và thang pH",
+                  "isLeaf": true,
+                  "childData": []
+                },
+                {
+                  "id": "SDT_KHTN_KNTT_C8_1_2_3",
+                  "name": "Oxide",
+                  "isLeaf": true,
+                  "childData": []
+                },
+                {
+                  "id": "SDT_KHTN_KNTT_C8_1_2_4",
+                  "name": "Muối",
+                  "isLeaf": true,
+                  "childData": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SDT_KHTN_KNTT_C8_2",
+          "name": "Năng lượng và sự biến đổi",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_KHTN_KNTT_C8_2_1",
+              "name": "Khối lượng riêng và áp suất",
+              "isLeaf": false,
+              "childData": [
+                {
+                  "id": "SDT_KHTN_KNTT_C8_2_1_1",
+                  "name": "Khối lượng riêng",
+                  "isLeaf": true,
+                  "childData": []
+                },
+                {
+                  "id": "SDT_KHTN_KNTT_C8_2_1_2",
+                  "name": "Áp suất trên một bề mặt",
+                  "isLeaf": true,
+                  "childData": []
+                }
+              ]
+            },
+            {
+              "id": "SDT_KHTN_KNTT_C8_2_2",
+              "name": "Điện",
+              "isLeaf": false,
+              "childData": [
+                {
+                  "id": "SDT_KHTN_KNTT_C8_2_2_1",
+                  "name": "Hiện tượng nhiễm điện",
+                  "isLeaf": true,
+                  "childData": []
+                },
+                {
+                  "id": "SDT_KHTN_KNTT_C8_2_2_2",
+                  "name": "Dòng điện, nguồn điện",
+                  "isLeaf": true,
+                  "childData": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "SDT_KHTN_KNTT_C8_3",
+          "name": "Vật sống",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_KHTN_KNTT_C8_3_1",
+              "name": "Cơ thể người",
+              "isLeaf": false,
+              "childData": [
+                {
+                  "id": "SDT_KHTN_KNTT_C8_3_1_1",
+                  "name": "Hệ tiêu hóa ở người",
+                  "isLeaf": true,
+                  "childData": []
+                },
+                {
+                  "id": "SDT_KHTN_KNTT_C8_3_1_2",
+                  "name": "Máu và hệ tuần hoàn",
+                  "isLeaf": true,
+                  "childData": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "SDT_SINHHOC_KNTT_C10",
+      "name": "Sinh học 10",
+      "isLeaf": false,
+      "childData": [
+        {
+          "id": "SDT_SINHHOC_KNTT_C10_1",
+          "name": "Thành phần hóa học của tế bào",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_SINHHOC_KNTT_C10_1_1",
+              "name": "Các nguyên tố hóa học và nước",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_SINHHOC_KNTT_C10_1_2",
+              "name": "Carbohydrate và lipid",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_SINHHOC_KNTT_C10_1_3",
+              "name": "Protein và nucleic acid",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_SINHHOC_KNTT_C10_2",
+          "name": "Cấu trúc của tế bào",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_SINHHOC_KNTT_C10_2_1",
+              "name": "Tế bào nhân sơ",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_SINHHOC_KNTT_C10_2_2",
+              "name": "Tế bào nhân thực",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_SINHHOC_KNTT_C10_2_3",
+              "name": "Trao đổi chất qua màng tế bào",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_SINHHOC_KNTT_C10_3",
+          "name": "Chuyển hóa năng lượng trong tế bào",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_SINHHOC_KNTT_C10_3_1",
+              "name": "Khái quát về chuyển hóa vật chất và năng lượng",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_SINHHOC_KNTT_C10_3_2",
+              "name": "Enzyme",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_SINHHOC_KNTT_C10_3_3",
+              "name": "Hô hấp tế bào",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_SINHHOC_KNTT_C10_4",
+          "name": "Chu kì tế bào và phân bào",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_SINHHOC_KNTT_C10_4_1",
+              "name": "Chu kì tế bào",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_SINHHOC_KNTT_C10_4_2",
+              "name": "Nguyên phân",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_SINHHOC_KNTT_C10_4_3",
+              "name": "Giảm phân",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

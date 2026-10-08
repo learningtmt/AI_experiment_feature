@@ -1,0 +1,9 @@
+{
+  "bookGroupCode": "KNTT",
+  "bookGroupLabel": "Kết nối tri thức với cuộc sống",
+  "subjectPrefix": "Sách điện tử môn ",
+  "llmApi": "chat",
+  "llmApiNote": "Overwritten by scripts/smoke-test.js with the API that actually works: chat | responses",
+  "llmApiVerifiedWithModel": "gemini-3.5-flash",
+  "llmApiVerifiedAt": "2026-10-08T14:40:22.895Z"
+}

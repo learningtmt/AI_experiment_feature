@@ -1,0 +1,100 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "SDT_DIALI_KNTT_C10",
+      "name": "Địa lí 10",
+      "isLeaf": false,
+      "childData": [
+        {
+          "id": "SDT_DIALI_KNTT_C10_1",
+          "name": "Trái Đất",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_DIALI_KNTT_C10_1_1",
+              "name": "Trái Đất. Thuyết kiến tạo mảng",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_DIALI_KNTT_C10_1_2",
+              "name": "Hệ quả địa lí các chuyển động của Trái Đất",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_DIALI_KNTT_C10_1_3",
+              "name": "Thạch quyển",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_DIALI_KNTT_C10_2",
+          "name": "Khí quyển",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_DIALI_KNTT_C10_2_1",
+              "name": "Khí quyển. Nhiệt độ không khí",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_DIALI_KNTT_C10_2_2",
+              "name": "Khí áp và gió",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_DIALI_KNTT_C10_2_3",
+              "name": "Mưa",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_DIALI_KNTT_C10_3",
+          "name": "Thủy quyển",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_DIALI_KNTT_C10_3_1",
+              "name": "Thủy quyển. Nước trên lục địa",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_DIALI_KNTT_C10_3_2",
+              "name": "Đại dương",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_DIALI_KNTT_C10_4",
+          "name": "Sinh quyển",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_DIALI_KNTT_C10_4_1",
+              "name": "Sinh quyển",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_DIALI_KNTT_C10_4_2",
+              "name": "Các vòng đai nhiệt và đới khí hậu",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

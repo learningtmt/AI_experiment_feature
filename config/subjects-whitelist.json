@@ -1,0 +1,12 @@
+{
+  "prefix": "Sách điện tử môn ",
+  "allowed": [
+    "sinh hoc",
+    "vat li",
+    "vat ly",
+    "hoa hoc",
+    "khoa hoc tu nhien",
+    "dia li",
+    "dia ly"
+  ]
+}

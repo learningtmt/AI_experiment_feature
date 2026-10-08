@@ -1,0 +1,143 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "SDT_VATLI_KNTT_C10",
+      "name": "Vật lí 10",
+      "isLeaf": false,
+      "childData": [
+        {
+          "id": "SDT_VATLI_KNTT_C10_1",
+          "name": "Mở đầu",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_VATLI_KNTT_C10_1_1",
+              "name": "Làm quen với vật lí",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C10_1_2",
+              "name": "Vai trò của vật lí trong đời sống",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C10_1_3",
+              "name": "Các quy tắc an toàn trong phòng thực hành vật lí",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_VATLI_KNTT_C10_2",
+          "name": "Chuyển động",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_VATLI_KNTT_C10_2_1",
+              "name": "Độ dịch chuyển và quãng đường đi được",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C10_2_2",
+              "name": "Tốc độ và vận tốc",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C10_2_3",
+              "name": "Chuyển động thẳng biến đổi đều",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C10_2_4",
+              "name": "Chuyển động ném",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_VATLI_KNTT_C10_3",
+          "name": "Lực",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_VATLI_KNTT_C10_3_1",
+              "name": "Ba định luật Newton",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C10_3_2",
+              "name": "Lực ma sát",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C10_3_3",
+              "name": "Lực đàn hồi, định luật Hooke",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C10_3_4",
+              "name": "Lực hấp dẫn",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_VATLI_KNTT_C10_4",
+          "name": "Năng lượng, công, công suất",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_VATLI_KNTT_C10_4_1",
+              "name": "Công và năng lượng",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C10_4_2",
+              "name": "Động năng và thế năng",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C10_4_3",
+              "name": "Công suất",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_VATLI_KNTT_C10_5",
+          "name": "Động lượng",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_VATLI_KNTT_C10_5_1",
+              "name": "Động lượng và định luật bảo toàn động lượng",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C10_5_2",
+              "name": "Va chạm",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

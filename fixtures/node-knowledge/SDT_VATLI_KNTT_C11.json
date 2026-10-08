@@ -1,0 +1,112 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "SDT_VATLI_KNTT_C11",
+      "name": "Vật lí 11",
+      "isLeaf": false,
+      "childData": [
+        {
+          "id": "SDT_VATLI_KNTT_C11_1",
+          "name": "Dao động",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_VATLI_KNTT_C11_1_1",
+              "name": "Dao động điều hòa",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C11_1_2",
+              "name": "Mô tả dao động điều hòa",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C11_1_3",
+              "name": "Năng lượng trong dao động điều hòa",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_VATLI_KNTT_C11_2",
+          "name": "Sóng",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_VATLI_KNTT_C11_2_1",
+              "name": "Mô tả sóng",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C11_2_2",
+              "name": "Sóng ngang. Sóng dọc. Sự truyền năng lượng của sóng cơ",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C11_2_3",
+              "name": "Giao thoa sóng",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_VATLI_KNTT_C11_3",
+          "name": "Điện trường",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_VATLI_KNTT_C11_3_1",
+              "name": "Lực tương tác giữa hai điện tích",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C11_3_2",
+              "name": "Điện trường",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C11_3_3",
+              "name": "Tụ điện",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_VATLI_KNTT_C11_4",
+          "name": "Dòng điện, mạch điện",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_VATLI_KNTT_C11_4_1",
+              "name": "Cường độ dòng điện",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C11_4_2",
+              "name": "Điện trở. Định luật Ohm",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_VATLI_KNTT_C11_4_3",
+              "name": "Nguồn điện",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

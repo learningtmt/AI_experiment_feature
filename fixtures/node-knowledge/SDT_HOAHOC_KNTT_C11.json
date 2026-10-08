@@ -1,0 +1,137 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "SDT_HOAHOC_KNTT_C11",
+      "name": "Hóa học 11",
+      "isLeaf": false,
+      "childData": [
+        {
+          "id": "SDT_HOAHOC_KNTT_C11_1",
+          "name": "Cân bằng hóa học",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_HOAHOC_KNTT_C11_1_1",
+              "name": "Khái niệm về cân bằng hóa học",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_HOAHOC_KNTT_C11_1_2",
+              "name": "Các yếu tố ảnh hưởng đến cân bằng hóa học",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_HOAHOC_KNTT_C11_2",
+          "name": "Cân bằng trong dung dịch nước",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_HOAHOC_KNTT_C11_2_1",
+              "name": "Sự điện li",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_HOAHOC_KNTT_C11_2_2",
+              "name": "Thuyết Brønsted - Lowry về acid - base",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_HOAHOC_KNTT_C11_2_3",
+              "name": "pH của dung dịch. Chất chỉ thị axit - bazơ",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_HOAHOC_KNTT_C11_2_4",
+              "name": "Chuẩn độ acid - base",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_HOAHOC_KNTT_C11_3",
+          "name": "Nitrogen và sulfur",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_HOAHOC_KNTT_C11_3_1",
+              "name": "Nitrogen",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_HOAHOC_KNTT_C11_3_2",
+              "name": "Ammonia và muối ammonium",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_HOAHOC_KNTT_C11_3_3",
+              "name": "Sulfur và sulfur dioxide",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_HOAHOC_KNTT_C11_3_4",
+              "name": "Sulfuric acid và muối sulfate",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_HOAHOC_KNTT_C11_4",
+          "name": "Đại cương về hóa học hữu cơ",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_HOAHOC_KNTT_C11_4_1",
+              "name": "Hợp chất hữu cơ và hóa học hữu cơ",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_HOAHOC_KNTT_C11_4_2",
+              "name": "Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_HOAHOC_KNTT_C11_4_3",
+              "name": "Công thức phân tử hợp chất hữu cơ",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        },
+        {
+          "id": "SDT_HOAHOC_KNTT_C11_5",
+          "name": "Hydrocarbon không no",
+          "isLeaf": false,
+          "childData": [
+            {
+              "id": "SDT_HOAHOC_KNTT_C11_5_1",
+              "name": "Alkene",
+              "isLeaf": true,
+              "childData": []
+            },
+            {
+              "id": "SDT_HOAHOC_KNTT_C11_5_2",
+              "name": "Alkyne",
+              "isLeaf": true,
+              "childData": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
