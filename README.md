@@ -196,4 +196,23 @@ runs/, eval/results/   (không commit)
 
 ## Chạy trong phiên cloud (Claude Code trên web)
 
-Xem hướng dẫn trong tin nhắn bàn giao. Tóm tắt: cần `npm ci`, `npx playwright install --with-deps chromium`, đặt `OPENAI_API_KEY` (và `OPENAI_BASE_URL`, `MODEL_ID` nếu cần) trong cấu hình môi trường cloud, và cho phép mạng tới nhà cung cấp model và CDN của Playwright. Giá trị biến môi trường cloud hiển thị với mọi người dùng chung môi trường đó, nên dùng môi trường cá nhân.
+Phiên cloud chạy trên máy chủ của Anthropic, tiếp tục chạy khi bạn đóng laptop, và theo dõi được từ điện thoại (tab Code trong app Claude). Cần gói Pro, Max hoặc Team.
+
+1. **Kết nối GitHub:** vào [claude.ai/code](https://claude.ai/code), làm theo onboarding để cài Claude GitHub App cho repo này (hoặc chạy `/web-setup` trong terminal).
+2. **Tạo môi trường cloud:** ở claude.ai/code bấm biểu tượng đám mây phía trên ô nhập, chọn **Add cloud environment**, điền:
+   - **Network access:** chọn **Full** cho đơn giản. Mức **Trusted** có npm và `*.googleapis.com` (đủ cho Gemini) nhưng chưa thấy `api.openai.com` và nơi tải Chromium của Playwright. Nếu dùng **Custom**, thêm `cdn.playwright.dev`, `playwright.download.prss.microsoft.com`, `api.openai.com` và bật "Also include default list".
+   - **Environment variables** (định dạng `.env`, mỗi dòng một cặp):
+     ```
+     OPENAI_API_KEY=<khoá của bạn>
+     OPENAI_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai/
+     MODEL_ID=gemini-3.5-flash
+     REQUEST_TIMEOUT_MS=360000
+     BASH_DEFAULT_TIMEOUT_MS=600000
+     BASH_MAX_TIMEOUT_MS=3600000
+     ```
+     Dùng OpenAI thì để trống `OPENAI_BASE_URL` và đặt `MODEL_ID` tương ứng.
+   - Giá trị biến môi trường **hiển thị với mọi người dùng chung môi trường**, nên chỉ tạo môi trường cá nhân, không tạo môi trường dùng chung của tổ chức.
+3. **Bắt đầu phiên:** chọn repo `learningtmt/AI_experiment_feature`, nhánh `main`, môi trường vừa tạo, rồi gửi yêu cầu. Câu đầu nên bảo Claude chạy `npm ci && npx playwright install --with-deps chromium`, `npm run smoke`, rồi `npm test`.
+4. **Giữ kết quả eval:** `eval/results/` và `runs/` bị gitignore, nên hãy yêu cầu Claude copy thư mục kết quả sang một thư mục khác và `git add -f`, rồi commit lên nhánh riêng.
+5. **Kéo về máy:** `claude --teleport` (chọn phiên), hoặc `git fetch` và checkout nhánh mà phiên cloud đã push.
+
